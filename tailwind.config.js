@@ -1,3 +1,4 @@
+import { EPALETTE } from "./src/color-palette";
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -11,11 +12,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#034D6F",
-        secondary: "#08A0A0",
-        tertiary: "#C9CCCA",
-        danger: "#F82F2F",
-        success: "#00A86B",
+        primary: EPALETTE.primary,
+        secondary: EPALETTE.secondary,
+        tertiary: EPALETTE.tertiary,
+        success: EPALETTE.success,
       },
       container: {
         center: true,

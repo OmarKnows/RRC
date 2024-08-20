@@ -40,7 +40,7 @@ const InlineInputWrapper = ({
           <span className="text-xs font-regular text-gray-500">{optional}</span>
         </label>
       )}
-      <div className="relative w-full">{children}</div>
+      <div className="relative w-full ">{children}</div>
       {!!error && !disabled ? (
         <span
           role="alert"

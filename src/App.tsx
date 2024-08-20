@@ -1,7 +1,20 @@
+import MainDropDownSelect from "./components/Select/MainDropdownSelect";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="flex flex-col gap-2 h-[100vh] justify-center items-center w-[200px]">
+      <MainDropDownSelect
+        options={[
+          {
+            value: "1",
+            label: "1",
+          },
+          {
+            value: "2",
+            label: "2",
+          },
+        ]}
+      />
     </div>
   );
 };
